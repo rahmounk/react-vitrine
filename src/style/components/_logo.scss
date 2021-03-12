@@ -1,0 +1,18 @@
+.logo {
+  position: absolute;
+  font-family: $font-2;
+  font-size: 2rem;
+  user-select: none;
+
+  &:after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    border: 1px $color-2 solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: -12px;
+    z-index: -1;
+  }
+}
